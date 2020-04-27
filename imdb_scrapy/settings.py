@@ -65,7 +65,8 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'imdb_scrapy.pipelines.MongodbPipeline': 300, #higer number means lover priority
+#    'imdb_scrapy.pipelines.MongodbPipeline': 300, #higer number means lover priority #MONGODB
+   'imdb_scrapy.pipelines.SqLitePipeline': 300, #higer number means lover priority    #SqLite3
 }
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
