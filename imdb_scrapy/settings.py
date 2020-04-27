@@ -64,10 +64,10 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'imdb_scrapy.pipelines.ImdbScrapyPipeline': 300,
-#}
-
+ITEM_PIPELINES = {
+   'imdb_scrapy.pipelines.ImdbScrapyPipeline': 300, #higer number means lover priority
+}
+MONGO_URI = "Hello World"
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
