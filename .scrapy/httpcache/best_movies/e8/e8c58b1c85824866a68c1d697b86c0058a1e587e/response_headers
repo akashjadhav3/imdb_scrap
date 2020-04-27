@@ -1,0 +1,14 @@
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Date: Mon, 27 Apr 2020 08:46:34 GMT
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Content-Security-Policy: frame-ancestors 'self' imdb.com *.imdb.com *.media-imdb.com withoutabox.com *.withoutabox.com amazon.com *.amazon.com amazon.co.uk *.amazon.co.uk amazon.de *.amazon.de translate.google.com images.google.com www.google.com www.google.co.uk search.aol.com bing.com www.bing.com
+Content-Language: en
+Set-Cookie: ubid-main=135-9468926-8500328; Domain=.imdb.com; Expires=Sat, 15-May-2088 12:00:41 GMT; Path=/; Secure
+Vary: Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Content-Encoding: gzip
+X-Amz-Rid: 6KFJX3CX02ZXRSN9985Y
+X-Cache: Miss from cloudfront
+Via: 1.1 39e49e2b94511c31c74047b5b91029b7.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM51-C2
+X-Amz-Cf-Id: VlbcPUspZ-X-GxFjpBmw9IWp3SAlMW3dkNSXLtQH2yJzAHajP2NgPw==

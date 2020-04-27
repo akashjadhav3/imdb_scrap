@@ -31,5 +31,7 @@ class BestMoviesSpider(CrawlSpider):
             'duration':response.xpath("normalize-space((//time)[1]/text())").get(),
             'genere':response.xpath("//div[@class='subtext']/a[1]/text()").get(),
             'rating':response.xpath("//span[@itemprop='ratingValue']/text()").get(),
-            'movie_url':response.url
+            'movie_url':response.url,
+            'user-agent':response.request.headers.get('User-Agent').decode('utf-8') # custom user agent from middleware
+
         }
